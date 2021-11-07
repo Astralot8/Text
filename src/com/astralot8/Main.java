@@ -40,10 +40,8 @@ public class Main {
             return Label.OK;
         }
 
-        SpamAnalyzer(String[] keywords) {
-               keywords = new String[]{
-
-               };
+        SpamAnalyzer(String a, String b) {
+                keywords = new String[] {a,b};
         }
 
     }
